@@ -1,0 +1,18 @@
+{
+  "name": "tda-network",
+  "version": "1.0.0",
+  "description": "Réseau social moderne inspiré de TikTok, Instagram et Facebook",
+  "main": "frontend/app.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
